@@ -1,55 +1,270 @@
-.p1{font-size:50px ;
-color: black;
-font-family:"Protest Strike", sans-serif;}
-.hmain{font-size: 100px;
-color: white;
-font-family: "Protest Riot", sans-serif;}
-.first{margin-left: 40%;}
-.p2{font-size:25px ;
-    color: black;
-    font-family:"Protest Strike", sans-serif;}
- .hmain2{font-size: 50px;
-        color: rgb(6, 6, 6);
-        font-family: "Protest Riot", sans-serif;}
-        .second{margin-right: 40%;
-        margin-bottom: 9%;}
-    .p3{color: black;
-    font-size: 20px;}
-    button{background-color: black;
-    color: white;
-width: 150px;}
+.nav-link:hover {
+    text-decoration: underline;
+}
 
+.btn-nav {
+    text-align: center;
+    height: 50px;
+    width: 55px;
+    border-radius: 50%;
+}
+.badge:after{
+    content:attr(value);
+    font-size:12px;
+    color: #ffffff;
+    background: rgb(193, 105, 105);
+    border-radius:50%;
+    padding: 0 5px;
+    position:relative;
+    left:-8px;
+    top:-10px;
+    opacity:0.9;
+}
 
-@media(max-width:800px)
-{.first{height: 500px;
-
-margin-left: 0;
-margin-bottom:-70px ;}
-.p1{font-size: 30px;
-color: white;
-font-family:Georgia, 'Times New Roman', Times, serif}
-.hmain{font-size: 60px;
-    color: rgb(245, 218, 186);
-            }
-.second{margin-right: 0;}
-.p2{margin-bottom: 130px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
-font-size:20px;}
-.p3{display: none;}
-.hmain2{margin-bottom:115px ;
+.p1 {
+    margin-left: 100px;
     font-size: 40px;
-}
-button{width:100px ;}
-.bt{margin-bottom:38px ;
-margin-left: 165px;
+    color: rgb(18, 15, 15);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.hmain {
+    font-size: 80px;
+    color: rgb(216, 142, 142);
+    /* font-family: "Protest Riot", sans-serif; */
+}
 
+.first {
+    margin-left: 40%;
+}
 
+.p2 {
+    font-size: 25px;
+    color: black;
+    font-family: "Protest Strike", sans-serif;
+}
 
+.hmain2 {
+    font-size: 50px;
+    color: rgb(6, 6, 6);
+    font-family: "Protest Riot", sans-serif;
+}
+
+.second {
+    margin-right: 40%;
+    margin-bottom: 9%;
+}
+
+.p3 {
+    color: black;
+    font-size: 20px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    width: 150px;
+}
+@media(min-width:800px){
+    .b{display: none;}
+}
+
+@media(max-width:800px) {
+
+   .slide .a{display: none;}
+    .first {
+
+        margin-left: 0;
+        margin-bottom: 80px;
+    }
+
+    .p1 {
+        font-size: 30px;
+        margin-left: 0;
+        margin-bottom: 80px;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+
+    .hmain {
+        color: rgb(29, 25, 25);
+        margin-bottom:100px ;
+        font-size: 60px;
+    }
+
+    .second {
+        margin-right: 0;
+    }
+
+    .p2 {
+        margin-bottom: 150px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+    }
+
+    .p3 {
+        display: none;
+    }
+
+    .hmain2 {
+        margin-bottom: 115px;
+        font-size: 40px;
+    }
+
+    button {
+        width: 100px;
+    }
+
+    .bt {
+        margin-bottom: 38px;
+        margin-left: 165px;
+    }
+}
+
+.fixed-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 18px;
+    z-index: 1 !important;
+    width: 50px;
+}
+.fixed-btn:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.24) ;
+}
+
+input {
+    border: 0;
+}
+
+.sub {
+    margin-left: 45%;
+    margin-top: 80px;
+}
+
+.pg2 {
+    margin-top: 100px;
+}
+
+.img3 {
+    margin-right: 200px;
+}
+
+.about:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
-        
-        
-        
-        
+
+@media(max-width:992px) {
+    .pic {
+        width: 350px;
+    }
+
+}
+/* shop by concerns */
+.select1 {
+    text-align: center;
+    background-color: rgb(218, 216, 213);
+}
+
+.select2 {
+background-color: grey; 
+   height:300px;
+}
+.btn-move{
+    margin-top: 200px;
+    margin-left: 60px;
+}
+.btn-select {
+    background-color: white;
+    color: black;
+}
+
+.btn-select:hover {
+    background-color: black;
+    color: white;
+}
+
+.card-select1 {
+    height: 350px;
+    background-image: url(./web/pgmntation.png);
+}
+.card-select2 {
+    height: 350px;
+    background-image: url(./web/acne.png);
+}
+.card-select3 {
+    height: 350px;
+    background-image: url(./web/dullness1.png);
+}
+.card-select4 {
+    height: 350px;
+    background-image: url(./web/finelines.png);
+}
+/* .card{ border-radius:20%
+     ;
+justify-content: center;} */
+.fade-hd {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: rgb(223, 221, 219);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Times New Roman', Times, serif;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-img-top {
+    height: 350px;
+    width: 300px;
+    padding: 10px;
+}
+
+.card {
+    position: relative;
+}
+
+.card .card-img1 {
+    position: absolute;
+    transition: all 1s ease;
+}
+
+.card .card-img2 {
+    position: absolute;
+    transform: scaleY(0);
+    transition: all 1s ease;
+
+}
+
+.btn-bs {
+    height: 40px;
+}
+
+.btn-bs:hover span {
+    display: none
+}
+
+.btn-bs:hover:before {
+    content: "✓";
+}
+
+.card:hover .card-img2 {
+    transform: scaleY(1);
+}
+
+.card:hover .card-img1 {
+    opacity: 0.3;
+}
+
+.card-body {
+    margin-top: 350px;
+}
+
+/* values */
+.values{text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Times New Roman', Times, serif;
+    margin-top: 100px;
+}
+.value-img{height: 100px;
+width: 100px;}
