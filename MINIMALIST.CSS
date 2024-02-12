@@ -67,11 +67,12 @@ button {
 }
 @media(min-width:800px){
     .b{display: none;}
+   
 }
 
 @media(max-width:800px) {
 
-   .slide .a{display: none;}
+    .a {display: none;}
     .first {
 
         margin-left: 0;
