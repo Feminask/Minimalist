@@ -31,7 +31,7 @@
 .hmain {
     font-size: 80px;
     color: rgb(216, 142, 142);
-    /* font-family: "Protest Riot", sans-serif; */
+font-family: 'Times New Roman', Times, serif;
 }
 
 .first {
@@ -67,12 +67,13 @@ button {
 }
 @media(min-width:800px){
     .b{display: none;}
-   
+    .slide-a {
+        display: block;
+    }
 }
 
 @media(max-width:800px) {
-
-    .a {display: none;}
+.a{display: none;}
     .first {
 
         margin-left: 0;
@@ -155,6 +156,9 @@ input {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
+.btn{   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 @media(max-width:992px) {
     .pic {
@@ -165,7 +169,8 @@ input {
 /* shop by concerns */
 .select1 {
     text-align: center;
-    background-color: rgb(218, 216, 213);
+    margin-bottom: 20px;
+    /* background-color: rgb(218, 216, 213); */
 }
 
 .select2 {
@@ -178,6 +183,7 @@ background-color: grey;
 }
 .btn-select {
     background-color: white;
+    border: 0;
     color: black;
 }
 
@@ -269,3 +275,4 @@ justify-content: center;} */
 }
 .value-img{height: 100px;
 width: 100px;}
+*{ overflow-x:clip;}
